@@ -1,0 +1,17 @@
+{
+  "arch": "s390x",
+  "cpu": "z10",
+  "data-layout": "E-m:e-i1:8:16-i8:8:16-i64:64-f128:64-v128:64-a:8:16-n32:64",
+  "panic-strategy": "abort",
+  "disable-redzone": true,
+  "features": "-vector",
+  "llvm-target": "s390x-unknown-linux-gnu",
+  "max-atomic-width": 64,
+  "min-global-align": 16,
+  "os": "none",
+  "target-endian": "big",
+  "target-family": [
+    "none"
+  ],
+  "target-pointer-width": "64"
+}
